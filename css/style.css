@@ -78,6 +78,7 @@ body {
       padding: 5px !important; }
 
 .main {
+  min-height: calc(100vh - 50px);
   transition: all .3s ease-in-out;
   margin-top: 50px;
   padding: 20px 0; }
