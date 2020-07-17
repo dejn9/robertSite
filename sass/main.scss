@@ -30,7 +30,7 @@
 }
 
 .main {
-    min-height:calc(100vh - 50px);
+    min-height:calc(100vh - 91px);
     transition: all .3s ease-in-out;
     margin-top: 50px;
     padding:20px 0;
@@ -90,7 +90,10 @@
 .footer {
     border-top: 1px solid #d6d5d5;
     background-color: #f7f7f7;
-   
+    
+    @media only screen and (min-width:877px){
+        width:100%;
+    }
     
     p {
         @media only screen and (max-width:400px){
@@ -104,5 +107,9 @@
 
 .mainTriggered {
         width:100%;
+        margin-left: 0;
+}
+.footerTriggered {
+    width:100%;
         margin-left: 0;
 }

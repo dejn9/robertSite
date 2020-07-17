@@ -86,22 +86,23 @@
     </div>
 <main class="main">
     
-        <div class="container">
-            <h1>Hello world</h1>
+        <div class="container text-center">
+            <h1>Hello world blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla blabla</h1>
         </div>
-            
- 
 </main>
 <footer class='footer text-center py-2'>
     <p>© BlazorTemplate 2020. All Rights Reserved.</p>
 </footer>
+
     <script>
         const hamburgerBtn = document.querySelector('.hamburger');
         const sidepanel = document.querySelector('.sidepanel');
         const main = document.querySelector('.main');
+        const footer = document.querySelector('.footer');
         hamburgerBtn.addEventListener('click',() => {
             hamburgerBtn.classList.toggle('is-active'); 
             sidepanel.classList.toggle('sidepanelTriggered');
+            footer.classList.toggle('footerTriggered');
             main.classList.toggle('mainTriggered');
         });
     </script>
