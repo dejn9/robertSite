@@ -30,7 +30,7 @@
 }
 
 .main {
-    height: calc(100vh - 91px);
+    height:calc(100vh - 44px);
     margin-top: 44px;
     &-left {
         position:fixed;
@@ -87,7 +87,7 @@
             }
         }
     }
-}
+} 
 
 .mainLeftTriggered {
     left:-300px;
