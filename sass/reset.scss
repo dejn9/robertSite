@@ -1,0 +1,72 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    outline: none !important;
+  }
+  
+  *::before,
+  *::after {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: inherit;
+  }
+  
+  ol,
+  ul {
+    list-style: none;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  li {
+    margin: 0 !important;
+    padding: 0 !important;
+   
+  }
+  
+  a,button {
+    text-decoration: none;
+    padding: 0 !important;
+    margin: 0 !important;
+    display: inline-block;
+    transition: all .3s ease-in-out;
+  }
+  
+  a:hover,
+  a:link,
+  a:visited {
+    text-decoration: none;
+  }
+  
+  input,
+  button {
+    outline: none !important;
+    border: none;
+  }
+  
+  i {
+    outline: none;
+  }
+  
+  body {
+    overflow-x: hidden;
+    position: relative;
+  }
+  
+  *:focus {
+    outline: none !important;
+  }

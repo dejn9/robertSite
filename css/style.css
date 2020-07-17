@@ -1,0 +1,112 @@
+@import url("../css/open-iconic/font/css/open-iconic-bootstrap.min.css");
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  outline: none !important; }
+
+*::before,
+*::after {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: inherit; }
+
+ol,
+ul {
+  list-style: none;
+  margin: 0 !important;
+  padding: 0 !important; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
+  margin: 0 !important;
+  padding: 0 !important; }
+
+a, button {
+  text-decoration: none;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: inline-block;
+  transition: all .3s ease-in-out; }
+
+a:hover,
+a:link,
+a:visited {
+  text-decoration: none; }
+
+input,
+button {
+  outline: none !important;
+  border: none; }
+
+i {
+  outline: none; }
+
+body {
+  overflow-x: hidden;
+  position: relative; }
+
+*:focus {
+  outline: none !important; }
+
+.header {
+  background-color: #272c30;
+  padding: 3px 0; }
+  .header-left {
+    padding: 10px 15px;
+    width: 70%; }
+    @media only screen and (max-width: 400px) {
+      .header-left p {
+        display: none; } }
+  .header-right {
+    width: 30%; }
+    .header-right a {
+      padding: 5px !important; }
+
+.main {
+  height: calc(100vh - 50px); }
+  .main-left {
+    position: fixed;
+    width: 15%;
+    min-width: 180px;
+    left: 0;
+    height: calc(100vh - 50px);
+    top: 50px;
+    padding: 10px 15px;
+    border-right: 1px solid #dfe0e1;
+    transition: all .3s ease-in-out; }
+    .main-left .nav-item {
+      padding: 4px 8px !important; }
+    .main-left li {
+      margin-bottom: 16px !important; }
+      .main-left li:hover a {
+        color: black; }
+      .main-left li a {
+        line-height: 1; }
+        .main-left li a span {
+          margin-right: 10px; }
+        .main-left li a:first-of-type p {
+          margin-bottom: -3px !important; }
+  .main-right {
+    width: 100%;
+    padding-top: 20px;
+    transition: all .3s ease-in-out; }
+    .main-right .footer {
+      border-top: 1px solid #d6d5d5;
+      background-color: #f7f7f7; }
+      @media only screen and (max-width: 400px) {
+        .main-right .footer p {
+          font-size: 14px; } }
+
+.mainLeftTriggered {
+  left: -300px; }
