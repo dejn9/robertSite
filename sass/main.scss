@@ -74,12 +74,16 @@
     }
     &-right {
         width:100%;
+        position:relative;
         padding-top: 20px;
         transition: all .3s ease-in-out;
 
         .footer {
             border-top: 1px solid #d6d5d5;
             background-color: #f7f7f7;
+            position:fixed;
+            bottom:0;
+            left:0;
             p {
                 @media only screen and (max-width:400px){
                     font-size:14px;
