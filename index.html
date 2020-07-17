@@ -36,8 +36,7 @@
         </div>
         
     </header>
-<main class="main d-flex">
-    <div class="main-left bg-light">
+    <div class="sidepanel bg-light">
         <ul class="nav flex-column">
             <li class="nav-item">
                  <a class="nav-link active d-flex align-items-center" href="/">
@@ -85,20 +84,25 @@
         </ul>
         
     </div>
-    <div class="main-right d-flex flex-column justify-content-between">
-            <h1 class='text-center'>Hello world</h1>
-            <footer class='footer text-center py-2'>
-                <p>© BlazorTemplate 2020. All Rights Reserved.</p>
-            </footer>
-    </div>
+<main class="main">
+    
+        <div class="container">
+            <h1>Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world</h1>
+        </div>
+            
+ 
 </main>
-
+<footer class='footer text-center py-2'>
+    <p>© BlazorTemplate 2020. All Rights Reserved.</p>
+</footer>
     <script>
         const hamburgerBtn = document.querySelector('.hamburger');
-        const mainLeft = document.querySelector('.main-left');
+        const sidepanel = document.querySelector('.sidepanel');
+        const main = document.querySelector('.main');
         hamburgerBtn.addEventListener('click',() => {
             hamburgerBtn.classList.toggle('is-active'); 
-            mainLeft.classList.toggle('mainLeftTriggered');
+            sidepanel.classList.toggle('sidepanelTriggered');
+            main.classList.toggle('mainTriggered');
         });
     </script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
