@@ -1,115 +1,125 @@
 @import 'reset';
 @import url('../css/open-iconic/font/css/open-iconic-bootstrap.min.css');
 
+// HEADER SECTION
 .header {
     background-color: #272c30;
-    padding:3px 0;
-    position:fixed;
-    top:0;
-    left:0;
-    width:100%;
+    padding: 3px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
     &-left {
-        padding:10px 15px;
-        width:70%;
-        
-       
-        @media only screen and (max-width:400px){
+        padding: 10px 15px;
+        width: 70%;
+
+
+        @media only screen and (max-width:400px) {
             p {
                 display: none;
             }
         }
 
     }
+
     &-right {
-        width:30%;
+        width: 30%;
 
         a {
-            padding:5px !important;
+            padding: 5px !important;
         }
     }
 }
-
+// MAIN SECTION
 .main {
-    min-height:calc(100vh - 91px);
+    min-height: calc(100vh - 91px);
     transition: all .3s ease-in-out;
     margin-top: 50px;
-    padding:20px 0;
-    @media only screen and (max-width:876px){
-        width:100%;
+    padding: 20px 0;
+
+    @media only screen and (max-width:876px) {
+        width: 100%;
         margin-left: 0;
     }
-    @media only screen and (min-width:877px){
-        width:80%;
+
+    @media only screen and (min-width:877px) {
+        width: 80%;
         margin-left: 20%;
     }
-   
-    
-    
-} 
 
+
+
+}
+// SIDEPANEL SECTION
 .sidepanel {
-    position:fixed;
-    width:15%;
-    min-width:180px;
-    left:0;
-    height:calc(100vh - 50px);
-    top:50px;
-    padding:10px 15px;
-    border-right:1px solid #dfe0e1;
+    position: fixed;
+    width: 15%;
+    min-width: 180px;
+    left: 0;
+    height: calc(100vh - 50px);
+    top: 50px;
+    padding: 10px 15px;
+    border-right: 1px solid #dfe0e1;
     transition: all .3s ease-in-out;
-  
-    
+
+
     .nav-item {
-        padding:4px 8px !important;
+        padding: 4px 8px !important;
     }
+
     li {
         margin-bottom: 16px !important;
-       
+
         &:hover {
             a {
-                color:black;
+                color: black;
             }
         }
 
         a {
-            
+
             line-height: 1;
 
             span {
                 margin-right: 10px;
             }
+
             &:first-of-type {
                 p {
                     margin-bottom: -3px !important;
                 }
             }
-           
+
         }
     }
 }
+// FOOTER SECTION
 .footer {
     border-top: 1px solid #d6d5d5;
     background-color: #f7f7f7;
-    
-    @media only screen and (min-width:877px){
-        width:100%;
+
+    @media only screen and (min-width:877px) {
+        width: 100%;
     }
-    
+
     p {
-        @media only screen and (max-width:400px){
-            font-size:14px;
+        @media only screen and (max-width:400px) {
+            font-size: 14px;
         }
     }
 }
+// STYLING THAT WE USE IN THE JS FILE
 .sidepanelTriggered {
-    left:-500px;
+    left: -500px;
 }
-
+// STYLING THAT WE USE IN THE JS FILE
 .mainTriggered {
-        width:100%;
-        margin-left: 0;
+    width: 100%;
+    margin-left: 0;
 }
+// STYLING THAT WE USE IN THE JS FILE
 .footerTriggered {
-    width:100%;
-        margin-left: 0;
+    width: 100%;
+    margin-left: 0;
 }
